@@ -3,7 +3,7 @@ import pprint as pp
 import matplotlib.pyplot as plt
 import numpy as np
 
-api_key = "AIzaSyCfHnSD8M6E81ZLoXQEPduew6xCQ5hRTqM"
+api_key = "Insert your API key here"
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 res1 = youtube.channels().list(part='statistics', forUsername="PewDiePie").execute()
